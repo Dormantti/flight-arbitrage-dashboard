@@ -59,11 +59,3 @@ package.json         依赖与运行命令
 
 本仓库只包含客户展示网站源码，不包含原始 Excel 数据、Word 技术文档或桌面版 Python 预测程序。网站中的模型指标与示例结果来自项目材料的整理，并在页面中以演示口径呈现。
 
-## 手动上传 GitHub
-
-1. 在 GitHub 新建一个空仓库，例如 `airprice-intelligence`。
-2. 解压本源码包。
-3. 在仓库页面选择 **Add file → Upload files**。
-4. 上传解压后的全部文件和文件夹，然后提交。
-
-注意：GitHub 网页上传时需要一并上传以点开头的 `.openai` 文件夹；不要上传本地生成的 `node_modules`、`dist`、`.vinext` 或 `.wrangler` 文件夹。
